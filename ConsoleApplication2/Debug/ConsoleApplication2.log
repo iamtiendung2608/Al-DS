@@ -1,4 +1,2 @@
 ﻿  ConsoleApplication2.cpp
-C:\Users\Admin\source\repos\ConsoleApplication2\ConsoleApplication2\Row.h(24,20): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Admin\source\repos\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(41,21): warning C4018: '<': signed/unsigned mismatch
   ConsoleApplication2.vcxproj -> C:\Users\Admin\source\repos\ConsoleApplication2\Debug\ConsoleApplication2.exe

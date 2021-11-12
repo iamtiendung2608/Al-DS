@@ -5,9 +5,14 @@
 using namespace std;
 class Row {
 	vector<Column>field;
-	//int ID
+	int ID;
 public:
-	Row() {}
+	Row() {
+		this->ID = 0;
+	}
+	Row(int Id) {
+		this->ID = Id;
+	}
 	void AddField(Column value) {
 		field.push_back(value);
 	}
@@ -20,9 +25,15 @@ public:
 	void Clear() {
 		field.clear();
 	}
+	int getID() {
+		return this->ID;
+	}
+	Column getFieldName(int i) {
+		return field.at(i);
+	}
 };
 std::ostream& operator<<(std::ostream& out,  Row& row) {
-	for (int i = 0; i < row.getField().size();i++) {
+	for (int i = 0; i < (int)row.getField().size();i++) {
 		out << row.getField().at(i);
 	}
 	return out;

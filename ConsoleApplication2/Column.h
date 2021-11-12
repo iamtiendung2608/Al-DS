@@ -19,9 +19,9 @@ public:
 	Column() {}
 };
 std::istream& operator>>(std::istream& in, Column& col) {
-	cout << "Nhap Field: ";
+	cout << "Input Data Type: ";
 	getline(in, col.name);
-	cout << "Nhap Value: ";
+	cout << "Input Field Name: ";
 	getline(in, col.value);
 	col.ID = false;
 	return in;
