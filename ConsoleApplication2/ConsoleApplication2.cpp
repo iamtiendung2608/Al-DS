@@ -6,11 +6,8 @@
 #include"Row.h"
 #include"Column.h"
 #include<vector>
-#include"MainDatabase.h"
-#include"SystemCommand.h"
 using namespace std;
 int main()
 {
-	startSQL();
 }
 

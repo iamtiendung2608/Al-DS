@@ -32,11 +32,5 @@
     <ClInclude Include="ConsoleApplication2.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="MainDatabase.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="SystemCommand.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
   </ItemGroup>
 </Project>

@@ -5,14 +5,8 @@
 using namespace std;
 class Row {
 	vector<Column>field;
-	int ID;
 public:
-	Row() {
-		this->ID = 0;
-	}
-	Row(int Id) {
-		this->ID = Id;
-	}
+
 	void AddField(Column value) {
 		field.push_back(value);
 	}
@@ -24,9 +18,6 @@ public:
 	}
 	void Clear() {
 		field.clear();
-	}
-	int getID() {
-		return this->ID;
 	}
 	Column getFieldName(int i) {
 		return field.at(i);
